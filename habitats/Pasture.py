@@ -1,4 +1,4 @@
-class PettingZoo:
+class Pasture:
 
     def __init__(self, name, description):
         self.attraction_name = name

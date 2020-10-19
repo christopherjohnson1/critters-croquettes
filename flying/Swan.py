@@ -7,7 +7,7 @@ class Swan:
         self.species = species
         self.date_added = date.today()
         self.flying = True
-        self.food
+        self.food = food
 
     def feed(self):
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
